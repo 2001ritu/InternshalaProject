@@ -9,10 +9,10 @@ with 	URI 	HTTP Method	Result
 
 2 )	   for POST-  https://localhost:44356/user         This add details of new user.
 
-3 )	   for GET- https://localhost:44356/user?id=2      This  show details of a user.
+3 )	   for GET- https://localhost:44356/user/id/?condition     This  show details of a user.
 
-4 )	   for PUT-  https://localhost:44356/user?id=3      This  edit details of a user.
+4 )	   for PUT-  https://localhost:44356/user?id=id_data      This  edit details of a user.
 
-5 )	   for DELETE- https://localhost:44356/user?id=2	 This delete a user.
+5 )	   for DELETE- https://localhost:44356/user?id=id_data	 This delete a user.
 
 In UserController.cs file, I create the methods for all the conditions.
