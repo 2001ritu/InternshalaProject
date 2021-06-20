@@ -3,7 +3,7 @@
 Creating RESTFul Webservice using Postman
 with 	URI 	HTTP Method	Result
 
-*  for Post,Put we have to provide data in body
+*  for Post,Put we have to provide data(json format) in body
 
 1 )    for GET-  https://localhost:44356/user          It show list of all the users.
 
